@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StarNotary DAPP</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>StarNotary Token DAPP</h1>
+
+    <hr>
+
+    <br>
+      <h1>Create a Star</h1>
+      <br><label for="starName">Star Name:</label><input type="text" id="starName"></input>
+      <br><label for="starId">Star ID:</label><input type="text" id="starId"></input>
+      <br><br><button id="createStar" onclick="App.createStar()">Create Star</button>
+      <br>
+      <hr>
+      <br>
+      <div class="col-md-6">
+    <b>Lookup Star</b>
+    <div class="form-group row">
+      <label for="lookupStarId" class="col-sm-3 col-form-label">Star ID:</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" id="lookupStarId" placeholder="Star ID">
+      </div>
+    </div>
+    <button type="button" class="btn btn-primary" onclick="App.lookUptokenIdToStarInfo()">Lookup Star</button>
+
+    <div class="form-group row">
+      <label for="lookupStarName" class="col-sm-3 col-form-label">Star Name:</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" id="lookupStarName" readonly>
+      </div>
+    </div>
+  </div>
+		<span id="status"></span>
+      <br>
+    <script src="index.js"></script>
+
+  </body>
+</html>

@@ -1,7 +1,7 @@
-# Decentralized Star Notary Service – Star Notary Token
+# Decentralized Star Notary Service â€“ Star Notary Token
 
 
-This token is deployed to **Rinkeby Testnet**.
+Project deployed to Rinkeby Testnet.
 
 **ERC-721 Token Name**: "Star Notary Token"  
 **ERC-721 Token Symbol**: "STN"  
